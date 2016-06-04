@@ -58,3 +58,30 @@ select, input {
   padding: 7px;
 }
 
+.route {
+  overflow: auto;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: 1px dashed gray;
+  padding-top: 5px;
+}
+
+.route-map, .route-details, .choose-route-button {
+  float: left;
+}
+
+.route-details {
+  padding-left: 5px;
+}
+
+.choose-route-button {
+  font-size: 0.8em;
+  background: #8DB6FD;
+  color: #f4f4f4;
+  line-height: 1.9;
+  padding: 0 6px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin-left: 30px;
+  margin-top: 10px;
+}

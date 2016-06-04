@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'route_plan/index'
+  get 'route_plan' => 'route_plan#index'
+  get 'route_plan/similar_routes'
 
   root 'route#index'
   # The priority is based upon order of creation: first created -> highest priority.

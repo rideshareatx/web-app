@@ -1,0 +1,19 @@
+<div class="container">
+  <h1>Similar routes:</h1>
+
+  <div class="routes">
+    <% 10.times do |i| %>
+    <div class="route">
+      <div class="route-map">
+        <img width="100" src="http://maps.googleapis.com/maps/api/staticmap?center=Austin,+TX&zoom=12&scale=false&size=100x100&maptype=roadmap&format=png&visual_refresh=true" alt="Google Map of Austin, TX">
+      </div>
+      <div class="route-details">
+        <div class="location">TO: Location Name <%= i + 1 %></div>
+        <div class="location">FROM: Location Name</div>
+      </div>
+      <button class="choose-route-button">Choose Route</button>
+    </div>
+    <% end %>
+  </div>
+
+</div>
