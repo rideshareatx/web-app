@@ -1,4 +1,4 @@
-class RouteController < ApplicationController
+class RoutesController < ApplicationController
 
   def index
   end
