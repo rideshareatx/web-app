@@ -1,0 +1,40 @@
+
+<!-- 
+
+home address
+work address
+mode of transportion
+	bike
+	rail
+	metro
+	carpool
+	rideshare
+
+-->
+
+
+<form action="/users/:id/" method="post">
+	<div>
+		<label>Home Address:</label><br>
+  		<input type="text" name="home">
+	</div>
+
+	<div>
+		<label>Work Address:</label><br>
+  		<input type="text" name="work">
+	</div>
+
+	<div>
+		<label>How do you get around?</label><br>
+		<input type="checkbox" name="vehicle" value="bike">Bike<br>
+		<input type="checkbox" name="vehicle" value="rail">Rail<br>
+		<input type="checkbox" name="vehicle" value="metro">Metro<br>
+		<input type="checkbox" name="vehicle" value="carpool">Carpool<br>
+		<input type="checkbox" name="vehicle" value="rideshare">Rideshare<br>
+	</div>
+</form>
+
+<!--
+PUT /users/:id/
+-->
+
