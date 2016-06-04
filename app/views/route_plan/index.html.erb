@@ -1,0 +1,45 @@
+<form action="/route_plan/similar_routes" class="container">
+
+  <div class="form-field">
+    <label>Where are you going?</label>
+
+    <select>
+      <option value="Home">Home</option>
+      <option value="Work">Work</option>
+      <option value="School">School</option>
+      <option value="Gym">Gym</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-field">
+    <label>From where?</label>
+
+    <select>
+      <option value="Home">Home</option>
+      <option value="Work">Work</option>
+      <option value="School">School</option>
+      <option value="Gym">Gym</option>
+      <option value="Other">Other</option>
+    </select>
+  </div>
+
+  <div class="form-field time-form-field">
+    <label>At what time?</label>
+
+    <span class="hours">
+      <input type="text" value size="3" maxlength="2" placeholder="HH">
+    </span>
+    <span>:</span>
+    <span class="minutes">
+      <input type="text" value size="3" maxlength="2" placeholder="MM">
+    </span>
+
+    <select>
+      <option value="AM">AM</option>
+      <option value="PM">PM</option>
+    </select>
+  </div>
+
+  <button class="submit-button">Find Routes</button>
+</form>
