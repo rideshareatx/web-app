@@ -1,24 +1,23 @@
-
-
-<form action="/users/:id/" method="get">
+<form action="/users/<%= current_user_id %>" method="post">
+  <input name="_method" type="hidden" value="put" />
 	<div>
 		<label for="home">Home Address:</label>
-  		<input type="text" name="addr1" placeholder="street">
-  		<input type="text" name="addr2" placeholder="unit, apt, #">
-  		<input type="text" name="city" placeholder="city">
-  		<input type="text" name="state" placeholder="state">
-  		<input type="text" name="zip" placeholder="zip">
-  		<input type="text" name="country" placeholder="country">
+  		<input type="text" name="home[addr1]" placeholder="street">
+  		<input type="text" name="home[addr2]" placeholder="unit, apt, #">
+  		<input type="text" name="home[city]" placeholder="city">
+  		<input type="text" name="home[state]" placeholder="state">
+  		<input type="text" name="home[zip]" placeholder="zip">
+  		<input type="text" name="home[country]" placeholder="country">
 	</div>
 
 	<div>
 		<label for="work">Work Address:</label>
-  		<input type="text" name="addr1" placeholder="street">
-  		<input type="text" name="addr2" placeholder="unit, apt, #">
-  		<input type="text" name="city" placeholder="city">
-  		<input type="text" name="state" placeholder="state">
-  		<input type="text" name="zip" placeholder="zip">
-  		<input type="text" name="country" placeholder="country">
+  		<input type="text" name="work[addr1]" placeholder="street">
+  		<input type="text" name="work[addr2]" placeholder="unit, apt, #">
+  		<input type="text" name="work[city]" placeholder="city">
+  		<input type="text" name="work[state]" placeholder="state">
+  		<input type="text" name="work[zip]" placeholder="zip">
+  		<input type="text" name="work[country]" placeholder="country">
 	</div>
 
 	<div>
