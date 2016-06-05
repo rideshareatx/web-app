@@ -1,4 +1,15 @@
 == README
 
-To get yoruself an access_token:
+To get yourself an access_token:
+
+```
 curl -X POST "http://localhost:8080/management/token" -d '{"grant_type":"password", "username":"test", "password":"password"}'
+```
+
+to run the app:
+
+```
+ rails s -p 4000
+```
+
+and go to http://localhost:4000/ in your browser
